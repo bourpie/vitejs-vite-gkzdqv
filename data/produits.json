@@ -1,0 +1,772 @@
+{
+  "titre": "Produits",
+  "cssClass": "",
+  "banniereDtos": [
+    {
+      "largeurGrilleTotale": 12,
+      "ligneGrilleDtos": [
+        {
+          "name": "Une colonne",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 12,
+              "html": "<h1>Déployez l’Intelligence juridique pour vos affaires grâce à notre gamme complète de solutions</h1>\n<p>Nos produits et services facilitent l’accès aux informations juridiques pertinentes pour les professionnels et travailleurs de nombreux domaines.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Une colonne",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 12,
+              "html": "<h2>Savoir judiciaire</h2>\n<hr style=\"border-top: 5px solid #009CDE;\" />"
+            }
+          ]
+        },
+        {
+          "name": "Quatre colonnes",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><img style=\" max-width:237px;\"  src=\"/a/media/icones/produits/carre_icone_plumitifs.svg?width=237&amp;height=237\" alt=\"\" width=\"100%\"   height=\"auto\"  />  </p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/plumitifs/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/plum_generique_carre_grand.jpg?width=237;height=237\" alt=\"Plumitifs pour les professionnels\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Plumitifs pour les professionnels</h3>\n<p>Avec le service de vérification Les Plumitifs, obtenez toute l’information juridique qu’il vous faut en quelques clics seulement et assurez-vous de prendre les meilleures décisions.</p>\n<p><a href=\"/a/fr/produits/plumitifs/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/plumitifs/plumitifs-ressources-humaines/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/plum_rh_carre_grand.jpg?width=237;height=237\" alt=\"Plumitifs pour les ressources humaines.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Plumitifs pour les ressources humaines</h3>\n<p>Vous avez trouvé un candidat qualifié, intéressé et expérimenté? Excellent! Il ne vous reste plus qu’à vous assurer qu’il n’ait pas d’antécédents judiciaires incompatibles avec l’emploi offert.</p>\n<p><a href=\"/a/fr/produits/plumitifs/plumitifs-ressources-humaines/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/plumitifs/plumitifs-assurances/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/plum_assurance_carre_grand.jpg?width=273;height=237\" alt=\"Plumitifs pour les assurances.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Plumitifs pour les assurances</h3>\n<p>Vous vous apprêtez à assurer un nouveau client, avez confirmé son identité et avez consulté son historique de réclamations. Mais avez-vous consulté ses antécédents judiciaires?</p>\n<p><a href=\"/a/fr/produits/plumitifs/plumitifs-assurances/\">En savoir plus</a></p>"
+            }
+          ]
+        },
+        {
+          "name": "Quatre colonnes",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 3,
+              "html": ""
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/plumitifs/plumitifs-institutions-financieres/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/plum_finance_carre_grand.jpg?width=237;height=237\" alt=\"Plumitifs pour les institutions financières.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Plumitifs pour les institutions financières</h3>\n<p>Lors de votre étude de demande de prêt, assurez-vous qu’aucune infractions antérieure ne compromette la capacité de remboursement du demandeur, vérifiez ses antécédents judiciaires!</p>\n<p><a href=\"/a/fr/produits/plumitifs/plumitifs-institutions-financieres/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/avis-executions-forcees/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/huissier_carre_grand.jpg?width=273;height=237\" alt=\"Avis d'exécutions forcées pour huissiers et créanciers.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Avis d'exécutions forcées pour huissiers et créanciers</h3>\n<p>Qu’il s’agisse d’impayés, de retenue de salaire pour des sommes impayées, des recours engagés par des créanciers ou encore de visites d’huissiers chez un particulier ou une entreprise, ayez l’heure juste avant de vous engager.</p>\n<p><a href=\"/a/fr/produits/avis-executions-forcees/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": ""
+            }
+          ]
+        },
+        {
+          "name": "Une colonne",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 12,
+              "html": "<h2 style=\"margin-top: 2em;\">Savoir juridique</h2>\n<hr style=\"border-top: 5px solid #9E2B2F;\" />"
+            }
+          ]
+        },
+        {
+          "name": "Quatre colonnes",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><img style=\" max-width:237px;\"  src=\"/a/media/icones/produits/carre_icone_recherche_juridique.svg?width=237;height=237\" alt=\"\" width=\"100%\"   height=\"auto\"  />  </p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/recherche-juridique/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/recherche-juridique_carre_grand.jpg?width=237;height=237\" alt=\"Recherche juridique.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Recherche juridique</h3>\n<p>Repérez rapidement les documents légaux pertinents quant à vos recherches parmi plus de 50 ans de décisions juridiques, issues de plus de 90 juridictions québécoises et canadiennes.</p>\n<p><a href=\"/a/fr/produits/recherche-juridique/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/aide-citation/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/aide_citation_carre_grand.jpg?width=237;height=237\" alt=\"Aide à la citation.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Aide à la citation</h3>\n<p>Le plugiciel idéal pour insérer rapidement dans vos documents Microsoft Word l’ensemble des références jurisprudentielles, doctrinales et législatives colligées par SOQUIJ pour vos argumentaires et autres éléments rédactionnels.</p>\n<p><a href=\"/a/fr/produits/aide-citation/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/lpja/\"><img style=\" max-width:237px;\"  src=\"/AristoteMedia/cwyjhqdx/lpja_mains_237x237.jpg?width=237&amp;height=237\" alt=\"Loi sur la protection de la jeunesse annotée (LPJA).\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Loi sur la protection de la jeunesse annotée</h3>\n<p>L'outil de prédilection des juristes qui œuvrent en droit de la jeunesse.</p>\n<p><a href=\"/a/fr/produits/lpja/\">En savoir plus</a></p>"
+            }
+          ]
+        },
+        {
+          "name": "Une colonne",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 12,
+              "html": "<h2 style=\"margin-top: 2em;\">Informer</h2>\n<hr style=\"border-top: 5px solid #007A33;\" />"
+            }
+          ]
+        },
+        {
+          "name": "Quatre colonnes",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><img style=\" max-width:237px;\"  src=\"/a/media/icones/produits/carre_icone_express.svg?width=237;height=237\" alt=\"\" width=\"100%\"   height=\"auto\"  />  </p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/express/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/express_carre_grand.jpg?width=237;height=237\" alt=\"L'Express.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>L'Express</h3>\n<p>Votre concentré juridique personnalisé pour rester à l’affût des derniers changements législatifs et doctrinaux selon une variété de domaines de droit en constante évolution.</p>\n<p><a href=\"/a/fr/produits/express/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/express-travail/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/express_travail_carre_grand.jpg?width=237;height=237\" alt=\"L'Express Travail.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>L'Express Travail</h3>\n<p>Un bulletin jurisprudentiel pour ne rien manquer des dernières tendances du monde du travail et aborder efficacement les enjeux RH de demain.</p>\n<p><a href=\"/a/fr/produits/express-travail/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": ""
+            }
+          ]
+        },
+        {
+          "name": "Une colonne",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 12,
+              "html": "<h2 style=\"margin-top: 2em;\">Orienter</h2>\n<hr style=\"border-top: 5px solid #41758C;\" />"
+            }
+          ]
+        },
+        {
+          "name": "Quatre colonnes",
+          "colonneGrilleDtos": [
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><img style=\" max-width:237px;\"  src=\"/a/media/icones/produits/orienter_icone.png?width=237&amp;height=237\" alt=\"Orienter\" width=\"100%\"   height=\"auto\"  />  </p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": "<p><a href=\"/a/fr/produits/aide-decision/\"><img style=\" max-width:237px;\"  src=\"/a/media/produits/aide_decision_carre_grand.jpg?width=237;height=237\" alt=\"Aide à la décision.\" width=\"100%\"   height=\"auto\"  />  </a></p>\n<h3>Aide à la décision</h3>\n<p>Une solution clé en main pour les professionnels en relations du travail amenés à évaluer la pertinence d’une mesure disciplinaire à la lumière des tendances jurisprudentielles du moment.</p>\n<p><a href=\"/a/fr/produits/aide-decision/\">En savoir plus</a></p>"
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": ""
+            },
+            {
+              "largeurGrilleColonne": 3,
+              "html": ""
+            }
+          ]
+        }
+      ],
+      "affichages": ["Mobile", "Tablet", "Desktop"],
+      "couleur": "",
+      "forme": "",
+      "paddingTop": "",
+      "paddingBottom": "",
+      "contentType": "banniereContentGrid"
+    }
+  ],
+  "messageOperationnelDto": null,
+  "footerDto": {
+    "reseauxSociauxDto": {
+      "messageAccessibilite": "Icônes de médias sociaux",
+      "iconeSocialDtos": [
+        {
+          "urlImage": "https://aristote-itg.soquij.qc.ca/a/media/icones/médias sociaux/facebook-f-brands.svg",
+          "urlLien": "https://facebook.com/SOQUIJ",
+          "attributAlt": " Facebook",
+          "attributTitle": "Facebook",
+          "messageAccessibilite": "Ouverture d'une nouvelle fenêtre",
+          "contentType": "iconeSocial"
+        },
+        {
+          "urlImage": "https://aristote-itg.soquij.qc.ca/a/media/icones/médias sociaux/twitter-brands.svg",
+          "urlLien": "https://twitter.com/soquij",
+          "attributAlt": "Twitter",
+          "attributTitle": "Twitter",
+          "messageAccessibilite": "Ouverture d'une nouvelle fenêtre",
+          "contentType": "iconeSocial"
+        },
+        {
+          "urlImage": "https://aristote-itg.soquij.qc.ca/a/media/icones/médias sociaux/instagram-brands.svg",
+          "urlLien": "https://instagram.com/soquij_exp",
+          "attributAlt": "Instagram",
+          "attributTitle": "Instagram",
+          "messageAccessibilite": "Ouverture d'une nouvelle fenêtre ",
+          "contentType": "iconeSocial"
+        },
+        {
+          "urlImage": "https://aristote-itg.soquij.qc.ca/a/media/icones/médias sociaux/linkedin-in-brands.svg",
+          "urlLien": "https://linkedin.com/company/soquij",
+          "attributAlt": "LinkedIn",
+          "attributTitle": "LinkedIn",
+          "messageAccessibilite": "Ouverture d'une nouvelle fenêtre ",
+          "contentType": "iconeSocial"
+        },
+        {
+          "urlImage": "https://aristote-itg.soquij.qc.ca/a/media/icones/médias sociaux/youtube-brands.svg",
+          "urlLien": "https://youtube.com/soquij",
+          "attributAlt": "YouTube",
+          "attributTitle": "YouTube",
+          "messageAccessibilite": "Ouverture d'une nouvelle fenêtre",
+          "contentType": "iconeSocial"
+        }
+      ],
+      "contentType": "reseauxSociaux"
+    },
+    "logoLiensImportantsDto": {
+      "logo": {
+        "id": 1247,
+        "name": "Sqj.Whitelogo",
+        "url": "https://aristote-itg.soquij.qc.ca/a/media/logos/sqj-whitelogo.svg",
+        "alias": "logoFooter",
+        "attributAlt": "Logo SOQUIJ > Retour à l'accueil",
+        "lienDto": {
+          "texte": "Accueil",
+          "cible": null,
+          "messageAccessibilite": null,
+          "iconeDto": null,
+          "affichages": null,
+          "urlTo": "/a/fr/"
+        }
+      },
+      "groupeDeLiensImportantsDtos": [
+        {
+          "titre": "À propos",
+          "liensDtos": [
+            {
+              "texte": "Qui est SOQUIJ?",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/a-propos/"
+            },
+            {
+              "texte": "Gouvernance",
+              "cible": "",
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/a-propos/gouvernance/"
+            },
+            {
+              "texte": "Équipe",
+              "cible": "",
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/a-propos/equipe/"
+            },
+            {
+              "texte": "Promesse client",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/a-propos/promesse-client/"
+            },
+            {
+              "texte": "Partenaires",
+              "cible": "",
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/a-propos/partenaires/"
+            },
+            {
+              "texte": "Nous joindre",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "https://itg.soquij.qc.ca/fr/nous-joindre/"
+            }
+          ],
+          "contentType": "groupeDeLiensImportants"
+        },
+        {
+          "titre": "Publications",
+          "liensDtos": [
+            {
+              "texte": "Plan stratégique",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/publications/plan-strategique/"
+            },
+            {
+              "texte": "Rapport annuel",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/publications/rapport-annuel/"
+            },
+            {
+              "texte": "Infolettre",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/publications/infolettre/"
+            },
+            {
+              "texte": "Nouvelles",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "https://itg.soquij.qc.ca/fr/a-signaler"
+            },
+            {
+              "texte": "Fils RSS",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/publications/fils-rss/"
+            }
+          ],
+          "contentType": "groupeDeLiensImportants"
+        },
+        {
+          "titre": "Je suis",
+          "liensDtos": [
+            {
+              "texte": "Un professeur ou un étudiant",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/je-suis/professeur-ou-etudiant/"
+            },
+            {
+              "texte": "Un jeune juriste",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/je-suis/jeune-juriste/"
+            },
+            {
+              "texte": "Un huissier",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "/a/fr/je-suis/huissier/"
+            },
+            {
+              "texte": "Un éditeur",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "http://citoyens.soquij.qc.ca/editeurs/"
+            },
+            {
+              "texte": "Un citoyen",
+              "cible": null,
+              "messageAccessibilite": null,
+              "iconeDto": null,
+              "affichages": null,
+              "urlTo": "https://itg.soquij.qc.ca/fr/services-aux-citoyens"
+            }
+          ],
+          "contentType": "groupeDeLiensImportants"
+        }
+      ]
+    },
+    "liensLegauxDto": {
+      "liensDtos": [
+        {
+          "texte": "Accessibilité",
+          "cible": null,
+          "messageAccessibilite": null,
+          "iconeDto": null,
+          "affichages": null,
+          "urlTo": "/a/fr/politiques/accessibilite/"
+        },
+        {
+          "texte": "Politiques et conditions d'utilisations",
+          "cible": null,
+          "messageAccessibilite": null,
+          "iconeDto": null,
+          "affichages": null,
+          "urlTo": "/a/fr/politiques/"
+        },
+        {
+          "texte": "Accès à l'information",
+          "cible": null,
+          "messageAccessibilite": null,
+          "iconeDto": null,
+          "affichages": null,
+          "urlTo": "/a/fr/a-propos/acces-information/"
+        },
+        {
+          "texte": "English",
+          "cible": null,
+          "messageAccessibilite": null,
+          "iconeDto": null,
+          "affichages": null,
+          "urlTo": "/a/fr/english/"
+        }
+      ],
+      "contentType": "liensLegaux"
+    },
+    "mentionLegaleDto": {
+      "mentionLegale": "<p>©️ Société québécoise d'information juridique (SOQUIJ) - Tous droits réservés | SOQUIJ est une société qui relève du <a rel=\"noopener\" href=\"https://www.justice.gouv.qc.ca\" target=\"_blank\" title=\"Suivre\">ministre de la Justice du Québec </a></p>",
+      "contentType": "mentionLegale"
+    },
+    "contentType": "footer"
+  },
+  "headerDto": {
+    "logo": {
+      "id": 1262,
+      "name": "Logo SOQUIJ > Retour à l'accueil",
+      "url": "https://aristote-itg.soquij.qc.ca/a/media/logos/sqj-headerlogo.svg",
+      "alias": "logo",
+      "attributAlt": "Logo SOQUIJ > Retour à l'accueil",
+      "lienDto": {
+        "texte": "Accueil",
+        "cible": null,
+        "messageAccessibilite": null,
+        "iconeDto": null,
+        "affichages": null,
+        "urlTo": "/a/fr/accueil"
+      }
+    },
+    "navigationDto": {
+      "menuPrincipalDtos": [
+        {
+          "lienDto": {
+            "texte": "Produits",
+            "cible": null,
+            "messageAccessibilite": null,
+            "iconeDto": null,
+            "affichages": null,
+            "urlTo": "/a/fr/produits/"
+          },
+          "megaMenuDto": {
+            "megaMenuColonneImageDto": {
+              "titreColonne": " Tous les produits",
+              "html": "<p>SOQUIJ offre une gamme de produits complets pour divers secteurs d’activités et pour les professionnels juridique et non-juridique.</p>",
+              "imageDto": {
+                "id": 1628,
+                "name": "Image Produits Megamenu",
+                "url": "https://aristote-itg.soquij.qc.ca/a/media/produits/image-produits-megamenu.jpg",
+                "alias": "image",
+                "attributAlt": "",
+                "lienDto": null
+              },
+              "lienDto": {
+                "texte": "Découvrir",
+                "cible": "",
+                "messageAccessibilite": null,
+                "iconeDto": null,
+                "affichages": null,
+                "urlTo": "/a/fr/produits/"
+              },
+              "couleurTrait": "Bleu"
+            },
+            "megaMenuColonneTexteDtos": [
+              {
+                "titreColonne": "Savoir judiciaire",
+                "lienDtos": [
+                  {
+                    "texte": "Plumitifs",
+                    "cible": "",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/plumitifs/"
+                  },
+                  {
+                    "texte": "Avis d’exécutions forcées",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/avis-executions-forcees/"
+                  }
+                ],
+                "couleurTrait": "Bleu Tadoussac"
+              },
+              {
+                "titreColonne": "Savoir juridique",
+                "lienDtos": [
+                  {
+                    "texte": "Recherche juridique",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/recherche-juridique/"
+                  },
+                  {
+                    "texte": "Aide à la citation",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/aide-citation/"
+                  },
+                  {
+                    "texte": "Loi sur la protection de la jeunesse annotée",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/lpja/"
+                  }
+                ],
+                "couleurTrait": "Rouge Rougemont"
+              },
+              {
+                "titreColonne": "Informer",
+                "lienDtos": [
+                  {
+                    "texte": "L'Express",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/express/"
+                  },
+                  {
+                    "texte": "L'Express Travail",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/express-travail/"
+                  }
+                ],
+                "couleurTrait": "Vert Tremblant"
+              },
+              {
+                "titreColonne": "Orienter",
+                "lienDtos": [
+                  {
+                    "texte": "Aide à la décision",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "/a/fr/produits/aide-decision/"
+                  }
+                ],
+                "couleurTrait": "Bleu Saguenay"
+              }
+            ],
+            "contentType": "megaMenu"
+          }
+        },
+        {
+          "lienDto": {
+            "texte": "Formations",
+            "cible": "_blank",
+            "messageAccessibilite": null,
+            "iconeDto": null,
+            "affichages": null,
+            "urlTo": "https://formations.soquij.qc.ca"
+          },
+          "megaMenuDto": {
+            "megaMenuColonneImageDto": {
+              "titreColonne": "Centre de formation",
+              "html": "<p>Formations courtes ou longues sur nos produits, webinaires et conférences thématiques, notre Centre de formation a beaucoup à offrir!</p>",
+              "imageDto": null,
+              "lienDto": {
+                "texte": "Toute la programmation",
+                "cible": null,
+                "messageAccessibilite": null,
+                "iconeDto": null,
+                "affichages": null,
+                "urlTo": "https://formations.soquij.qc.ca"
+              },
+              "couleurTrait": "Fermont"
+            },
+            "megaMenuColonneTexteDtos": [
+              {
+                "titreColonne": "Formations par produit",
+                "lienDtos": [
+                  {
+                    "texte": "Plumitifs",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalog/topCategory//289"
+                  },
+                  {
+                    "texte": "Recherche juridique",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalog/topCategory//290"
+                  },
+                  {
+                    "texte": "Aide à la décision",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalogItemDetails/webinaire-sur-l-outil-aide-a-la-decision/637/-1/-1"
+                  }
+                ],
+                "couleurTrait": "Saguenay"
+              },
+              {
+                "titreColonne": "Vidéoformations",
+                "lienDtos": [
+                  {
+                    "texte": "Toutes les vidéoformations",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalog/subCategory//297"
+                  },
+                  {
+                    "texte": "Le coffre-fort patrimonial : gardien de la vie numérique",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalogItemDetails/videoformation-le-coffre-fort-patrimonial-gardien-de-la-vie-/891/-1/-1"
+                  },
+                  {
+                    "texte": "Antécédents judiciaires et refus d'embauche : discrimination ou non?",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalogItemDetails/videoformation-antecedents-judiciaires-et-refus-d-embauche-d/505/-1/-1"
+                  },
+                  {
+                    "texte": "Diffamation à l'ère des médias sociaux",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalogItemDetails/videoformation-diffamation-a-l-ere-des-medias-sociaux/504/-1/-1"
+                  }
+                ],
+                "couleurTrait": "Rouge"
+              },
+              {
+                "titreColonne": "Tutoriels gratuits",
+                "lienDtos": [
+                  {
+                    "texte": "Tutoriels Plumitifs",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalogItemDetails/tutoriels-sur-le-service-plumitif/535/-1/-1"
+                  },
+                  {
+                    "texte": "Tutoriels Recherche juridique",
+                    "cible": null,
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalogItemDetails/tutoriels-sur-le-service-recherche-juridique/584/-1/-1"
+                  }
+                ],
+                "couleurTrait": "Bleu"
+              },
+              {
+                "titreColonne": "Formation interactive",
+                "lienDtos": [
+                  {
+                    "texte": "Capsule Plumitifs - Antécédents judiciaires et criminels",
+                    "cible": "_blank",
+                    "messageAccessibilite": null,
+                    "iconeDto": null,
+                    "affichages": null,
+                    "urlTo": "https://formations.soquij.qc.ca/catalogItemDetails/capsule-interactive-plumitifs-antecedents-judiciaires-et-cri/336/-1/-1"
+                  }
+                ],
+                "couleurTrait": "Bleu"
+              }
+            ],
+            "contentType": "megaMenu"
+          }
+        },
+        {
+          "lienDto": {
+            "texte": "Trouver une décision",
+            "cible": "",
+            "messageAccessibilite": null,
+            "iconeDto": null,
+            "affichages": null,
+            "urlTo": "http://itg.jugements.qc.ca/"
+          },
+          "megaMenuDto": null
+        }
+      ]
+    },
+    "boutonActionDtos": [
+      {
+        "texte": "Nous joindre",
+        "cible": null,
+        "messageAccessibilite": null,
+        "iconeDto": null,
+        "affichages": null,
+        "urlTo": "/a/fr/nous-joindre/"
+      },
+      {
+        "texte": "Se connecter",
+        "cible": null,
+        "messageAccessibilite": null,
+        "iconeDto": null,
+        "affichages": null,
+        "urlTo": "/a/connexion/"
+      }
+    ],
+    "lienSecondaireDtos": [
+      {
+        "texte": "Blogue",
+        "cible": "_blank",
+        "messageAccessibilite": null,
+        "iconeDto": null,
+        "affichages": null,
+        "urlTo": "https://blogue.soquij.qc.ca/"
+      },
+      {
+        "texte": "Carrières",
+        "cible": "_blank",
+        "messageAccessibilite": null,
+        "iconeDto": null,
+        "affichages": null,
+        "urlTo": "https://carrieres.soquij.qc.ca"
+      },
+      {
+        "texte": "Centre d'aide",
+        "cible": "_blank",
+        "messageAccessibilite": null,
+        "iconeDto": {
+          "id": 1286,
+          "name": "Icone Question",
+          "url": "https://aristote-itg.soquij.qc.ca/a/media/icones/icone-question.svg",
+          "alias": "iconeLien",
+          "attributAlt": "Des réponses à toutes vos questions. S'ouvrira dans une nouvelle fenêtre.",
+          "lienDto": null
+        },
+        "affichages": null,
+        "urlTo": "https://aide.soquij.qc.ca"
+      }
+    ],
+    "contentType": "header"
+  },
+  "seoDto": {
+    "title": "Produits",
+    "metaDescription": "Des produits en ligne pour les professionneles du droit et des ressources humaines.",
+    "baliseCanonique": "https://itg.soquij.qc.ca/a/fr/produits/",
+    "noIndex": false,
+    "noFollow": false
+  },
+  "contentType": "page"
+}
