@@ -17,8 +17,8 @@ function MyCounter() {
   return (
     <div>
       <h1>Allo {count}</h1>
-      <button onClick={incrFunc}>+1</button>
       <button onClick={decrFunc}>-1</button>
+      <button onClick={incrFunc}>+1</button>
     </div>
   );
 }
