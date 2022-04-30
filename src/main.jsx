@@ -13,7 +13,7 @@ import CounterReducer from './Reducers/CounterReducer';
 import './index.scss';
 
 const theme = createTheme();
-const Store = createStore();
+const Store = createStore(CounterReducer);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
