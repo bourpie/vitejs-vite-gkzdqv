@@ -4,12 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '/routes/home';
 import Produits from '/routes/products';
 import AppBar from '@mui/material/AppBar';
-import Button from '@mui/material/Button';
 import CameraIcon from '@mui/icons-material/PhotoCamera';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
@@ -30,12 +25,41 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <AppBar position="relative" color="default" elevation={0}>
-          <Toolbar>
-            <CameraIcon sx={{ mr: 2 }} />
-            <Typography variant="h6" color="inherit" noWrap>
-              Album layout
-            </Typography>
-          </Toolbar>
+          <nav>
+            <Container>
+              <Toolbar disableGutters={true}>
+                <CameraIcon sx={{ mr: 2 }} />
+                <Typography variant="h6" color="inherit" noWrap>
+                  Company name
+                </Typography>
+
+                <Link
+                  variant="button"
+                  color="text.primary"
+                  href="/"
+                  sx={{ my: 1, mx: 1.5 }}
+                >
+                  Home
+                </Link>
+                <Link
+                  variant="button"
+                  color="text.primary"
+                  href="/produits"
+                  sx={{ my: 1, mx: 1.5 }}
+                >
+                  Products
+                </Link>
+                <Link
+                  variant="button"
+                  color="text.primary"
+                  href="#"
+                  sx={{ my: 1, mx: 1.5 }}
+                >
+                  Training
+                </Link>
+              </Toolbar>
+            </Container>
+          </nav>
         </AppBar>
         <main>
           <Routes>
