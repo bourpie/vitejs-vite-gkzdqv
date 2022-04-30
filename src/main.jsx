@@ -8,6 +8,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import CounterReducer from './Reducers/CounterReducer';
 
 import './index.scss';
 
