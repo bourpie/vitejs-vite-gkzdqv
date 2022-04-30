@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '/routes/home';
 import Produits from '/routes/products';
+import MyNavbar from '/Components/MyNavbar';
 import AppBar from '@mui/material/AppBar';
 import CameraIcon from '@mui/icons-material/PhotoCamera';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -24,43 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <AppBar position="relative" color="default" elevation={0}>
-          <nav>
-            <Container>
-              <Toolbar disableGutters={true}>
-                <CameraIcon sx={{ mr: 2 }} />
-                <Typography variant="h6" color="inherit" noWrap>
-                  Company name
-                </Typography>
-
-                <Link
-                  variant="button"
-                  color="text.primary"
-                  href="/"
-                  sx={{ my: 1, mx: 1.5 }}
-                >
-                  Home
-                </Link>
-                <Link
-                  variant="button"
-                  color="text.primary"
-                  href="/produits"
-                  sx={{ my: 1, mx: 1.5 }}
-                >
-                  Products
-                </Link>
-                <Link
-                  variant="button"
-                  color="text.primary"
-                  href="#"
-                  sx={{ my: 1, mx: 1.5 }}
-                >
-                  Training
-                </Link>
-              </Toolbar>
-            </Container>
-          </nav>
-        </AppBar>
+        <MyNavbar />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

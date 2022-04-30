@@ -1,8 +1,8 @@
 function Products() {
   return (
-    <>
-      <p>Products</p>
-    </>
+    <Container>
+      <Typography>Products</Typography>
+    </Container>
   );
 }
 
