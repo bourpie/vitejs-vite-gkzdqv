@@ -1,11 +1,13 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import counterReducer from './counterReducer';
 import cartReducer from './cartReducer';
+import imageReducer from './imageReducer';
 import thunk from 'redux-thunk';
 
 const rootReducer = combineReducers({
   counterReducer,
   cartReducer,
+  imageReducer,
 });
 
 // Curryfication
@@ -19,6 +21,6 @@ const customMiddleware = (store) => (next) => (action) => {
   next(actionModif);
 };
 
-const store = createStore(rootReducer, applyMiddleware(customMiddleware));
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 export default store;

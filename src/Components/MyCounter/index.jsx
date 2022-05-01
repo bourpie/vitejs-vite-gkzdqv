@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 function MyCounter() {
   const { count } = useSelector((state) => ({
-    ...state.CounterReducer,
+    ...state.counterReducer,
   }));
   const dispatch = useDispatch();
   const incrFunc = () => {

@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 function MyCart() {
   const [cartData, setCartData] = useState(0);
   const { cart } = useSelector((state) => ({
-    ...state.CartReducer,
+    ...state.cartReducer,
   }));
   const dispatch = useDispatch();
   const addToCart = () => {
