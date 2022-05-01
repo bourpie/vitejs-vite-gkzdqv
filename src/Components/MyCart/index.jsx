@@ -3,6 +3,9 @@ import { useSelector, useDispatch } from 'react-redux';
 
 function MyCart() {
   const [cartData, setCartData] = useState(0);
+  const { cart } = useSelector((state) => ({
+    ...state.CartReducer,
+  }));
   const dispatch = useDispatch();
   const addToCart = () => {
     dispatch({
@@ -13,7 +16,7 @@ function MyCart() {
 
   return (
     <div>
-      <h1>MyCart</h1>
+      <h1>MyCart {cart}</h1>
       <input
         value={cartData}
         onInput={(e) => setCartData(e.target.value)}
