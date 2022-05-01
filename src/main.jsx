@@ -6,14 +6,11 @@ import Produits from './routes/products';
 import MyNavbar from './Components/MyNavbar';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
-import CounterReducer from './Reducers/CounterReducer';
+import Store from './store';
 
 import './index.scss';
 
 const theme = createTheme();
-const Store = createStore(CounterReducer);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
