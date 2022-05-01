@@ -2,7 +2,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
+import Link from 'react-router-dom';
 import CameraIcon from '@mui/icons-material/PhotoCamera';
 
 function MyNavbar() {
@@ -19,7 +19,7 @@ function MyNavbar() {
             <Link
               variant="button"
               color="text.primary"
-              href="/"
+              to=""
               sx={{ my: 1, mx: 1.5 }}
             >
               Home
@@ -27,7 +27,7 @@ function MyNavbar() {
             <Link
               variant="button"
               color="text.primary"
-              href="/produits"
+              to="/produits"
               sx={{ my: 1, mx: 1.5 }}
             >
               Products
@@ -35,7 +35,7 @@ function MyNavbar() {
             <Link
               variant="button"
               color="text.primary"
-              href="/ecrire"
+              to="/ecrire"
               sx={{ my: 1, mx: 1.5 }}
             >
               Écrire

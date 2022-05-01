@@ -7,6 +7,7 @@ import MyCard from '../../Components/MyCard';
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getArticles } from '../../store/articleReducer';
+import MyForm from '../../Components/MyForm';
 import './styles.scss';
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
   return (
     <Container className="home">
       <h1>Tous les articles</h1>
+      <MyForm />
       <section className="cards" aria-label="Les articles">
         {articles &&
           articles.map((card) => (
