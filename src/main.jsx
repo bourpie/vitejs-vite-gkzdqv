@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '../Pages/Home';
-import Produits from '../Pages/Products';
+import Home from './Pages/Home';
+import Produits from './Pages/Products';
+import Article from './Pages/Article';
+import AddArticle from './Pages/AddArticle';
 import MyNavbar from './Components/MyNavbar';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -22,6 +24,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/article" element={<Article />} />
+            <Route path="/ecrire" element={<AddArticle />} />
             <Route path="produits" element={<Produits />} />
           </Routes>
         </main>

@@ -35,10 +35,10 @@ function MyNavbar() {
             <Link
               variant="button"
               color="text.primary"
-              href="#"
+              href="/ecrire"
               sx={{ my: 1, mx: 1.5 }}
             >
-              Training
+              Écrire
             </Link>
           </Toolbar>
         </Container>
