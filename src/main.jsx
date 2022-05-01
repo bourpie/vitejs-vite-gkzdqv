@@ -6,6 +6,7 @@ import Produits from './routes/products';
 import MyNavbar from './Components/MyNavbar';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Provider } from 'react-redux';
 import Store from './store';
 
 import './index.scss';

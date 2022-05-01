@@ -1,5 +1,5 @@
 const INITIAL_STATE = {
-  cart: 999,
+  cart: 0,
 };
 
 function AddCartReducer(state = INITIAL_STATE, action) {
@@ -7,7 +7,7 @@ function AddCartReducer(state = INITIAL_STATE, action) {
     case 'ADDCART': {
       return {
         ...state,
-        // cart: state.count + 1,
+        cart: action.payload,
       };
     }
   }
