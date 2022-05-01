@@ -1,9 +1,27 @@
 .my-card {
-  width: 30%;
   padding: 1rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  animation: fadeIn 300ms ease-in;
+
+  @media screen and (min-width: 600px) {
+    max-width: 48%;
+  }
+
+  @media screen and (min-width: 960px) {
+    max-width: 30%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
