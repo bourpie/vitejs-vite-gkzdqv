@@ -18,7 +18,7 @@ function MySlider() {
               slideAnim.index === index + 1 ? 'slide active-anim' : 'slide'
             }
           >
-            {obj.title}
+            <img src={`/public/img${index + 1}.jpg`} alt="" />
           </div>
         );
       })}
