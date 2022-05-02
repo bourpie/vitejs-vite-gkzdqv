@@ -8,7 +8,7 @@ function Article() {
   return (
     <Container>
       <h1>{location.state.title}</h1>
-      <div>Contenu</div>
+      <div>{location.state.body}</div>
     </Container>
   );
 }

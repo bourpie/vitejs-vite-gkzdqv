@@ -33,14 +33,10 @@ function Home() {
               <h2>{article.title}</h2>
               <p>{article.body}</p>
               <Link
-                to={{
-                  pathname: `article/${article.title
-                    .replace(/\s+/g, '-')
-                    .trim()}`,
-                  state: {
-                    title: article.title,
-                    body: article.body,
-                  },
+                to={`article/${article.title.replace(/\s+/g, '-').trim()}`}
+                state={{
+                  title: article.title,
+                  body: article.body,
                 }}
               >
                 Lire l'article
