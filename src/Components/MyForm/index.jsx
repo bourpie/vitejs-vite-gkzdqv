@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 function MyForm() {
   const [article, setArticle] = useState({
@@ -8,6 +9,8 @@ function MyForm() {
   });
 
   const dispatch = useDispatch();
+
+  const navigateTo = useNavigate();
 
   const handleForm = (e) => {
     e.preventDefault();
@@ -20,6 +23,8 @@ function MyForm() {
       title: '',
       body: '',
     });
+
+    navigateTo('/');
   };
 
   const handleInputs = (e) => {

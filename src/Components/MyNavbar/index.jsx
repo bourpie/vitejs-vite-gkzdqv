@@ -2,7 +2,8 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Link from 'react-router-dom';
+import Box from '@mui/material/Box';
+import { Link } from 'react-router-dom';
 import CameraIcon from '@mui/icons-material/PhotoCamera';
 
 function MyNavbar() {
@@ -11,35 +12,27 @@ function MyNavbar() {
       <nav>
         <Container>
           <Toolbar disableGutters={true}>
-            <CameraIcon sx={{ mr: 2 }} />
             <Typography variant="h6" color="inherit" noWrap>
-              Company name
+              MyBlog
             </Typography>
-
-            <Link
-              variant="button"
-              color="text.primary"
-              to=""
-              sx={{ my: 1, mx: 1.5 }}
+            <Box
+              component="ul"
+              sx={{
+                listStyle: 'none',
+                display: 'flex',
+                gap: '1rem',
+              }}
             >
-              Home
-            </Link>
-            <Link
-              variant="button"
-              color="text.primary"
-              to="/produits"
-              sx={{ my: 1, mx: 1.5 }}
-            >
-              Products
-            </Link>
-            <Link
-              variant="button"
-              color="text.primary"
-              to="/ecrire"
-              sx={{ my: 1, mx: 1.5 }}
-            >
-              Écrire
-            </Link>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/produits">Products</Link>
+              </li>
+              <li>
+                <Link to="/ecrire">Écrire</Link>
+              </li>
+            </Box>
           </Toolbar>
         </Container>
       </nav>

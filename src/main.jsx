@@ -23,8 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <MyNavbar />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="article" element={<Article />} />
+            <Route exact path="/" element={<Home />} />
+            <Route path="article/:slug" element={<Article />} />
             <Route path="ecrire" element={<AddArticle />} />
             <Route path="produits" element={<Produits />} />
           </Routes>

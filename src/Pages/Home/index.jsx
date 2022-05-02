@@ -6,8 +6,8 @@ import MyCatImg from '../../Components/MyCatImg';
 import MyCard from '../../Components/MyCard';
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { getArticles } from '../../store/articleReducer';
-import MyForm from '../../Components/MyForm';
 import './styles.scss';
 
 function Home() {
@@ -26,14 +26,25 @@ function Home() {
   return (
     <Container className="home">
       <h1>Tous les articles</h1>
-      <MyForm />
       <section className="cards" aria-label="Les articles">
         {articles &&
-          articles.map((card) => (
-            <MyCard key={card.id}>
-              <h2>{card.title}</h2>
-              <p>{card.body}</p>
-              <a href="">Lire la suite</a>
+          articles.map((article) => (
+            <MyCard key={article.id}>
+              <h2>{article.title}</h2>
+              <p>{article.body}</p>
+              <Link
+                to={{
+                  pathname: `article/${article.title
+                    .replace(/\s+/g, '-')
+                    .trim()}`,
+                  state: {
+                    title: article.title,
+                    body: article.body,
+                  },
+                }}
+              >
+                Lire l'article
+              </Link>
             </MyCard>
           ))}
       </section>

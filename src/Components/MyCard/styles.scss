@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: space-between;
   animation: fadeIn 300ms ease-in;
+  width: 100%;
 
   @media screen and (min-width: 600px) {
     max-width: 48%;
