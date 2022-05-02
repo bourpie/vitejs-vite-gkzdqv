@@ -4,6 +4,7 @@ import MyCounter from '../../Components/MyCounter';
 import MyCart from '../../Components/MyCart';
 import MyCatImg from '../../Components/MyCatImg';
 import MyCard from '../../Components/MyCard';
+import MySlider from '../../Components/MySlider/MySlider';
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -25,7 +26,9 @@ function Home() {
 
   return (
     <Container className="home">
-      <h1>Tous les articles</h1>
+      <section className="my-slider">
+        <MySlider />
+      </section>
       <section className="cards" aria-label="Les articles">
         {articles &&
           articles.map((article) => (
