@@ -1,4 +1,4 @@
-# vitejs-vite-gkzdqv
+# My React training zone
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-gkzdqv)
 
