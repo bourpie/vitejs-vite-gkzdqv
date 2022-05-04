@@ -18,7 +18,7 @@ function MySlider() {
               slideAnim.index === index + 1 ? 'slide active-anim' : 'slide'
             }
           >
-            <img src={`Imgs/slider/img${index + 1}.jpg`} alt="" />
+            {index + 1}
           </div>
         );
       })}
